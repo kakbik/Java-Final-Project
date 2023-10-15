@@ -24,8 +24,8 @@ public class App {
 		//print out numbers of cards each player has
 		System.out.println("Player1 has: "+player1.getHand().size());
 		System.out.println("Player2 has: "+player2.getHand().size());
-		//player1.describe();
-		//player2.describe();
+		player1.describe();
+		player2.describe();
 		int val1;
 		int val2;
 		for (int i=0;i<26;i++) {
